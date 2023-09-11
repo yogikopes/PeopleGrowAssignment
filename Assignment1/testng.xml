@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PeopleGrow Automation Test Assignment1">
+   <listeners>
+        <listener class-name="com.Assignment1.qa.TestListener.Listener" />  
+    </listeners>
+	   
+    <test thread-count="5" name="PeopleGrow Test Cases">
+    <classes>
+      
+      <class name="com.Assignment1.qa.testcases.SignInLinkTest"/>
+      <class name="com.Assignment1.qa.testcases.LoginPageTest"/>
+      <class name="com.Assignment1.qa.testcases.HomePageTest"/>
+      <class name="com.Assignment1.qa.testcases.InboxPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
