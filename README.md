@@ -12,6 +12,9 @@ Dependency Java Maven
 ###libraries used Selenium TestNG 
 
 Steps to clone execute the tests
+
 git clone https://github.com/yogikopes/PeopleGrowAssignment/Assignment1
+
 cd PeopleGrowAssignment/Assignment1
+
 mvn clean test
